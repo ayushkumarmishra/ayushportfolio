@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "liveServer.settings.useBrowserPreview": true
+}

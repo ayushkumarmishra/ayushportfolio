@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color:rgb(112, 109, 109);
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+} 
+
+
+.navbar {
+    position: fixed;
+   background-color: rgb(144 144 144);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.navbar ul {
+    display: block;
+    width: 73%;
+    margin: 0px 264px;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 12px 15px;
+
+}
+
+.navbar a {
+    text-align: center;
+    color: rgb(207, 240, 20);
+    padding: 13px 9px;
+    font-weight: 400;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.searchbox {
+    float: right;
+    margin: 13px 21px;
+    color: wheat;
+}
+
+.navbar input {
+    
+    border-radius: 32px;
+    padding: 7px 18px;
+    width: 184px;
+    
+}
+
+.navbar input:hover {
+
+    border: 2px solid black;
+    background-color: rgb(180, 84, 108);
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.section1
+    {
+        background-image: url("1st.jpg");
+        height: 950px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.section1 div {
+    padding: 170px 258px;
+    /* margin: 10px 20px; */
+    color: white;
+}
+
+.section1 p {
+    font-size: 25px;
+    word-spacing: 10px;
+
+}
+
+.section1 h1 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+#section2 {
+    background: url(bcg.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section2 p
+ {
+    text-align: center;
+    color: black;
+    display: inline-block;
+    width: 24%;
+    font-size: 0.5cm;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px auto;
+}
+img {
+    
+    width: 22%;
+    float: left;    
+    margin: 1.33%;
+    /* border: 4px solid blue; */
+}
+
+#section3 {
+    
+    background-image: url("midsection.jpg");
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section3 p 
+{
+    text-align: center;
+    color: black;
+    display: inline-block;
+    width: 24%;
+    font-size: 0.5cm;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.section4 {
+    background-image: url("hobbcg.jpg");
+    height: 560px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section4 p 
+{
+    text-align: center;
+    color: black;
+    display: inline-block;
+    width: 24%;
+    font-size: 0.5cm;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+footer li {
+    float: left;
+    list-style: none;
+    margin: 12px 15px;
+
+}
